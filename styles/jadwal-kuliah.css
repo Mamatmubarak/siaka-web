@@ -1,0 +1,43 @@
+.navbar-brand{
+    margin-right: 100px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link .active{
+    color: #1e90ff !important;
+    font-weight: 900;
+}
+
+.jadwal-kuliah{
+    margin-top: 42px;
+}
+
+.judul h1{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 46.76px;
+}
+
+.judul h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.38px;
+}
+
+.jadwal-kuliah .download {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.table-head{
+    background: #DFE4EA;
+}
+
+td .text-center{
+    padding-top: 20px;
+}
+
+.text-primary{
+    color: #1E90FF !important;
+}

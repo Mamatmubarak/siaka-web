@@ -1,0 +1,62 @@
+.navbar-brand{
+    margin-right: 100px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link .active{
+    color: #1e90ff !important;
+    font-weight: 900;
+}
+
+.daftar-nilai{
+    margin-top: 42px;
+}
+
+.judul h1{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 46.76px;
+}
+
+.judul h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.38px;
+}
+
+.semester p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.18px;
+}
+
+.form-select{
+    width: 285px;
+    border-radius: 12px;
+}
+
+.sub-judul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-judul .download {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;   
+    align-items: flex-end;
+}
+
+.table-head{
+    background: #DFE4EA;
+}
+
+td .text-center{
+    padding-top: 20px;
+}
+
+.jumlah-sks p{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px !important;
+}

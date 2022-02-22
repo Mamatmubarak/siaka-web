@@ -1,0 +1,13 @@
+.navbar-brand{
+    margin-right: 100px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link .active{
+    color: #1e90ff !important;
+    font-weight: 900;
+}
+
+.nav__bar{
+    width: 1320px;
+}

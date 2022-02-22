@@ -1,0 +1,32 @@
+.carousel{
+    z-index: 1;
+    background-color: #f1f2f6;
+    overflow-x: auto;
+}
+
+.carousel_item{
+    border-radius: 17px;
+}
+
+.active__border{
+    border-color: blue !important;
+}
+
+.active__text p{
+    color: blue !important;
+    font-size:100px;
+}
+.itemku{
+    width: 113px
+}
+
+.category p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.38px;
+    color: #747d8c
+}
+
+.category p :active{
+    color: #1e90ff
+}

@@ -1,0 +1,86 @@
+
+.body{ 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(/image/background-login.jpg) !important;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kotak {
+    width: 607px !important;
+}
+
+.kotak__login{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;   
+}
+
+.body-kartu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+
+.body-kartu p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #57606F;
+}
+
+.body-kartu h1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #ECCC68;
+}
+
+.card-text{
+    width: 400px;
+}
+.input-group{
+    width: 398px;
+}
+.form-control{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+
+#addon-wrapping{
+    background-color: white;
+    border-top: none;
+    border-right: none;
+}
+
+.form-select{
+    width: 398px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.form-check{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-check p{
+    font-size: 16px;
+}
+
+.form-check p span{
+    font-weight: 700;
+}
+
+.btn-primary{
+    height: 48px;
+    border-radius: 12px;
+}

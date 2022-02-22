@@ -1,0 +1,36 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand{
+    margin-right: 100px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link .active{
+    color: #1e90ff !important;
+    font-weight: 900;
+}
+
+
+.card{
+    width: 100%;
+    border-radius: 12px;
+    padding-top: 36px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.list-group li{
+    font-size: 18px;
+    line-height: 23.38px;
+    font-weight: 400;
+}
