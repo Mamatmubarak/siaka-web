@@ -19,7 +19,7 @@ export default function Navbar() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link href="#">
-                  <div className="av-link ms-2 border-bottom border-primary active" aria-current="page">SIAKA</div>
+                  <div className="nav-link ms-2 border-bottom border-primary active" aria-current="page">SIAKA</div>
                 </Link>
                 {/* <a className="nav-link ms-2 border-bottom border-primary active" aria-current="page" href="#">SIAKA</a> */}
               </li>
