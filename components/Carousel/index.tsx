@@ -15,7 +15,7 @@ export default function Carousel( props: CarouselProps ) {
   return (
     <section className="container ">
         <div className="carousel d-flex justify-content-evenly align-items-strech ps-5 pe-5" >
-            <Item active={activePage === "/homepage"} href="/homepage" item="home" category="Home" />
+            <Item active={activePage === "/homepage"} href="/homepage" item="homepage" category="Home" />
             <Item active={activePage === "/jadwal-kuliah"} href="/jadwal-kuliah" item="jadwal-kuliah" category="Jadwal Kuliah" />
             <Item active={activePage === "/daftar-nilai"} href="/daftar-nilai" item="daftar-nilai" category="Daftar Nilai Semester" />
             <Item href="/daftar-nilai" item="transkrip" category="Transkrip" />
