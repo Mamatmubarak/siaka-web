@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Carousel from "../components/Carousel"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Homepage() {
   return (
@@ -38,9 +39,9 @@ export default function Homepage() {
             </div>
             <div className="d-flex">
               <div className="fw-bold me-2">Download</div>
-              <a href="#">
+              <Link href="/">
                 <Image src="/icon/download.svg" alt="download" width={22} height={22}/>
-              </a>
+                </Link>
             </div>
           </li>
           <li className="list-group-item d-flex justify-content-between align-items-start pt-3 pb-3">

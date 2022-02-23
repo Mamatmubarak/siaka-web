@@ -18,12 +18,12 @@ export default function Carousel( props: CarouselProps ) {
             <Item active={activePage === "/homepage"} href="/homepage" item="home" category="Home" />
             <Item active={activePage === "/jadwal-kuliah"} href="/jadwal-kuliah" item="jadwal-kuliah" category="Jadwal Kuliah" />
             <Item active={activePage === "/daftar-nilai"} href="/daftar-nilai" item="daftar-nilai" category="Daftar Nilai Semester" />
-            <Item item="transkrip" category="Transkrip" />
-            <Item item="krs" category="KRS" />
-            <Item item="jadwal-sp" category="Jadwal SP" />
-            <Item item="aktif-kuliah" category="Aktif Kuliah/Cuti" />
-            <Item item="bpp" category="BPP" />
-            <Item item="dosen" category="Dosen" />
+            <Item href="/daftar-nilai" item="transkrip" category="Transkrip" />
+            <Item href="/daftar-nilai" item="krs" category="KRS" />
+            <Item href="/daftar-nilai" item="jadwal-sp" category="Jadwal SP" />
+            <Item href="/daftar-nilai" item="aktif-kuliah" category="Aktif Kuliah/Cuti" />
+            <Item href="/daftar-nilai" item="bpp" category="BPP" />
+            <Item href="/daftar-nilai" item="dosen" category="Dosen" />
         </div> 
       </section>
   )

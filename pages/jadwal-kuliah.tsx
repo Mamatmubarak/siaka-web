@@ -1,5 +1,8 @@
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
+import Link from "next/link";
+import Image from "next/image";
+
 export default function JadwalKuliah() {
   return (
     <>
@@ -12,7 +15,10 @@ export default function JadwalKuliah() {
         </div>
         <div className="download">
           <div className="fw-bold me-2">Download</div>
-          <a href="#"><img src="./assets/icon/download.svg" alt="download"/></a>
+          <Link href="#">
+                <Image src="/icon/download.svg" alt="download" width={22} height={22}  />
+          </Link>
+          {/* <a href="#"><img src="./assets/icon/download.svg" alt="download"/></a> */}
         </div>
         <table className="table table-bordered">
             <thead className="table-head">

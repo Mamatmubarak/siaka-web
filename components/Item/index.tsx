@@ -1,12 +1,15 @@
 import Image from "next/image"
 import cx from "classnames";
 import Link from "next/link";
+import { ReactNode } from "react"
+    
 
 interface ItemProps{
+    children?: ReactNode;
     item: string;
     category: string;
     active?: boolean,
-    href?: string,
+    href: string,
 }
 
 export default function Item( props: ItemProps ) {
@@ -23,11 +26,6 @@ export default function Item( props: ItemProps ) {
 
     const classItem2 = cx ({
         "itemku": true,
-        // "mt-4": true,
-        // "mb-3": true,
-        // "ms-3": true,
-        // "me-3": true,
-        
     })
 
     const classItem3 = cx ({
@@ -40,7 +38,9 @@ export default function Item( props: ItemProps ) {
   return (
         <div className={classItem2}>
             <div className={classItem}>
-                    <a href={href}><Image src={`/icon/${item}.svg`} alt={item} width={96} height={96}/></a>
+                <Link href={href}>
+                    <Image src={`/icon/${item}.svg`} alt={item} width={96} height={96}/>
+                </Link>
             </div>
             <div className={classItem3}>
                 <p>{category}</p>

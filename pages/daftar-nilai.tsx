@@ -1,6 +1,8 @@
 
 import Carousel from '../components/Carousel'
 import Navbar from '../components/Navbar'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function DaftarNilai() {
   return (
@@ -28,7 +30,10 @@ export default function DaftarNilai() {
             </div>
             <div className="download">
               <div className="fw-bold me-2">Download</div>
-              <a href="#"><img src="/icon/download.svg" alt="download"/></a>
+              <Link href="#">
+                <Image src="/icon/download.svg" alt="download" width={22} height={22}  />
+              </Link>
+              {/* <a href="#"><img src="/icon/download.svg" alt="download"/></a> */}
             </div>
           </div>
             <div>
