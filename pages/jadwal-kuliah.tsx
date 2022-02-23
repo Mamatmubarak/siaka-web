@@ -4,7 +4,7 @@ export default function JadwalKuliah() {
   return (
     <>
     <Navbar />
-    <Carousel />
+    <Carousel activePage="/jadwal-kuliah"/>
     <section className="container jadwal-kuliah">
         <div className="mb-5 text-center judul">
             <h1>JADWAL KULIAH</h1>

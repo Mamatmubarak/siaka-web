@@ -6,7 +6,7 @@ export default function DaftarNilai() {
   return (
     <>
     <Navbar />
-    <Carousel />
+    <Carousel activePage='/daftar-nilai' />
     <section className="container daftar-nilai">
         <div className="mb-5 text-center judul">
             <h1>DAFTAR NILAI SEMESTER</h1>

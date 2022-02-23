@@ -6,7 +6,7 @@ export default function Homepage() {
   return (
     <>
     <Navbar />
-    <Carousel />
+    <Carousel activePage="/homepage" />
     <section>
       <div className="card container mt-5">
         <div className="card-body">

@@ -23,10 +23,10 @@ export default function Item( props: ItemProps ) {
 
     const classItem2 = cx ({
         "itemku": true,
-        "mt-4": true,
-        "mb-3": true,
-        "ms-3": true,
-        "me-3": true,
+        // "mt-4": true,
+        // "mb-3": true,
+        // "ms-3": true,
+        // "me-3": true,
         
     })
 

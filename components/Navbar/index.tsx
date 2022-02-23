@@ -5,9 +5,9 @@ export default function Navbar() {
   <>
     <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-3 pb-3">
 
-      <div className="container d-flex justify-content-between nav__bar ps-5 pe-5">
+      <div className="container d-flex justify-content-between nav__bar ps-2.5 ps-sm-5 pe-2.5 pe-sm-5">
         
-          <a className="navbar-brand d-flex align-items-center" href="#">
+          <a className="navbar-brand d-flex align-items-center me-5" href="#">
             <Image src="/icon/logo-siaka.svg" width={182} height={48} alt="logo-siaka"/>
           </a>
           <div className="collapse navbar-collapse me-4" id="navbarSupportedContent">
@@ -33,7 +33,7 @@ export default function Navbar() {
             </ul>         
           </div>
           <div className="d-flex align-items-center justify-content-center">
-            <a href="/">
+            <a className="d-flex align-items-center justify-content-center" href="/">
             <Image className="" src="/icon/notification.svg" width={24} height={24} />
             <Image src="/image/profil.jpg" width={34} height={34} />
             </a>

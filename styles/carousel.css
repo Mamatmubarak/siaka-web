@@ -1,12 +1,22 @@
 .carousel{
-    z-index: 1;
+    /* z-index: 1; */
     background-color: #f1f2f6;
     overflow-x: auto;
 }
 
+@media screen and (min-width: 375px) {
+    .carousel_item{
+        min-width: 100px !important;
+        
+    }
+}
+
+
 .carousel_item{
     border-radius: 17px;
 }
+
+
 
 .active__border{
     border-color: blue !important;
@@ -17,7 +27,11 @@
     font-size:100px;
 }
 .itemku{
-    width: 113px
+    width: 113px;
+    margin-top:26px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    marign-right: 20px;
 }
 
 .category p{
