@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Navbar() {
   return (
@@ -6,10 +7,14 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-3 pb-3">
 
       <div className="container d-flex justify-content-between nav__bar ps-2.5 ps-sm-5 pe-2.5 pe-sm-5">
-        
-          <a className="navbar-brand d-flex align-items-center me-5" href="#">
+        <Link href="#">
+          <div className="navbar-brand d-flex align-items-center me-5">
             <Image src="/icon/logo-siaka.svg" width={182} height={48} alt="logo-siaka"/>
-          </a>
+          </div>
+        </Link>
+          {/* <a className="navbar-brand d-flex align-items-center me-5" href="#">
+            
+          </a> */}
           <div className="collapse navbar-collapse me-4" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -33,10 +38,15 @@ export default function Navbar() {
             </ul>         
           </div>
           <div className="d-flex align-items-center justify-content-center">
-            <a className="d-flex align-items-center justify-content-center" href="/">
-            <Image className="" src="/icon/notification.svg" width={24} height={24} />
-            <Image src="/image/profil.jpg" width={34} height={34} />
-            </a>
+            <Link href="/">
+              <div className="d-flex align-items-center justify-content-center">
+              <Image className="" src="/icon/notification.svg" width={24} height={24} />
+              <Image src="/image/profil.jpg" width={34} height={34} />
+              </div>
+            </Link>
+            {/* <a className="d-flex align-items-center justify-content-center" href="/">
+            
+            </a> */}
           </div>
           
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
