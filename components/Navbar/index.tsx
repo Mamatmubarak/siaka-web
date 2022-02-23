@@ -21,19 +21,19 @@ export default function Navbar() {
                 <a className="nav-link ms-2 border-bottom border-primary active" aria-current="page" href="#">SIAKA</a>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="#">PA</a>
+                <a className="nav-link" href="/error">PA</a>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="#">JUDUL</a>
+                <a className="nav-link" href="/error">JUDUL</a>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="#">DIVLEARN</a>
+                <a className="nav-link" href="/error">DIVLEARN</a>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="#">PENILAIAN KINERJA</a>
+                <a className="nav-link" href="/error">PENILAIAN KINERJA</a>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="#">KOTAK SARAN</a>
+                <a className="nav-link" href="/error">KOTAK SARAN</a>
               </li>
             </ul>         
           </div>

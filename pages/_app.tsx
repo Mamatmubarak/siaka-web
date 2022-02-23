@@ -8,6 +8,7 @@ import "../styles/jadwal-kuliah.css"
 import "../styles/daftar-nilai.css"
 import "../styles/login.css"
 import "../styles/carousel.css"
+import "../styles/error.css"
 
 import type { ReactElement, ReactNode } from 'react'
 import type { NextPage } from 'next'
