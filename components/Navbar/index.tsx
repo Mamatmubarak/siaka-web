@@ -18,22 +18,30 @@ export default function Navbar() {
           <div className="collapse navbar-collapse me-4" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link ms-2 border-bottom border-primary active" aria-current="page" href="#">SIAKA</a>
+                <Link href="#">
+                  <div className="av-link ms-2 border-bottom border-primary active" aria-current="page">SIAKA</div>
+                </Link>
+                {/* <a className="nav-link ms-2 border-bottom border-primary active" aria-current="page" href="#">SIAKA</a> */}
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="/error">PA</a>
+                <Link href="/error">
+                  <div className="nav-link">PA</div>
+                </Link>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="/error">JUDUL</a>
+                <Link href="/error">
+                  <div className="nav-link">DIVLEARN</div>
+                </Link>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="/error">DIVLEARN</a>
+                <Link href="/error">
+                  <div className="nav-link">PENILAIAN KINERJA</div>
+                </Link>
               </li>
               <li className="nav-item ms-2">
-                <a className="nav-link" href="/error">PENILAIAN KINERJA</a>
-              </li>
-              <li className="nav-item ms-2">
-                <a className="nav-link" href="/error">KOTAK SARAN</a>
+                <Link href="/error">
+                  <div className="nav-link">KOTAK SARAN</div>
+                </Link>
               </li>
             </ul>         
           </div>
