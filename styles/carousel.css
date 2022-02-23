@@ -19,11 +19,11 @@
 
 
 .active__border{
-    border-color: blue !important;
+    border-color: #1e90ff !important;
 }
 
 .active__text p{
-    color: blue !important;
+    color: #1e90ff !important;
     font-size:100px;
 }
 .itemku{
