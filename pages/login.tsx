@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ReactElement } from "react"
 import Layout from "../components/LoginLayout"
 
 export default function Login() {
